@@ -1,0 +1,37 @@
+{
+  "name": "server-traveligo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "test":  "mocha  --exit"
+
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "ckeditor": "^4.12.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.17.3",
+    "fs-extra": "^10.1.0",
+    "http": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "method-override": "^3.0.0",
+    "mocha": "^10.0.0",
+    "mongoose": "^5.10.0",
+    "mongoose-seed": "^0.6.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "session": "^0.1.0",
+    "startbootstrap-sb-admin-2": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
