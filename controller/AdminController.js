@@ -63,7 +63,7 @@ module.exports = {
 		try {
 			const item = await Item.find();
 			const category = await Category.find();
-			res.render("admin/dashboard/view_dashboard", {
+			res.render("admin/dashboard/View_Dashboard", {
 				title: "Traveligo | Dashboard",
 				user: req.session.user,
 				category,
