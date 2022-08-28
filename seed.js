@@ -4,8 +4,8 @@ var seeder = require("mongoose-seed");
 var mongoose = require("mongoose");
 
 // Connect to MongoDB via Mongoose
-mongoose.connect(
-	"mongodb://127.0.0.1:27017/db_traveligo",
+seeder.connect(
+	"mongodb+srv://Rahmadee:Fitri310317@cluster0.i3ytv09.mongodb.net/db_traveligo?retryWrites=true&w=majority",
 	{
 		useNewUrlParser: true,
 		useCreateIndex: true,
@@ -43,7 +43,7 @@ var data = [
 		documents: [
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc901111"),
-				name: "Houses with beauty backyard",
+				name: "Kecamatan Barus",
 				itemId: [
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222") },
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223") },
@@ -53,7 +53,7 @@ var data = [
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc901112"),
-				name: "Hotels with large living room",
+				name: "Kecamatan Pandan",
 				itemId: [
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902226") },
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902227") },
@@ -63,7 +63,7 @@ var data = [
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc901113"),
-				name: "Apartment with kitchen",
+				name: "Kecamatan Pakkat",
 				itemId: [
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902230") },
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902231") },
@@ -81,13 +81,13 @@ var data = [
 			// Tabby Town
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-				title: "Tabby Town",
+				title: "Pantai KD3",
 				rating: 5,
 				country: "Indonesia",
-				city: "Lampung",
+				city: "Barus",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb1") },
@@ -126,13 +126,13 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-				title: "Seattle Rain",
-				rating: 5,
+				title: "Pantai PIS",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Barus",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb4") },
@@ -171,13 +171,13 @@ var data = [
 			// Wodden Pit
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902224"),
-				title: "Wodden Pit",
-				rating: 5,
+				title: "Pantai Pulau Pane",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Barus",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb7") },
@@ -213,16 +213,15 @@ var data = [
 				categoryId: "5e96cbe292b97300fc901111",
 			},
 
-			// Anggana
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902225"),
-				title: "Anggana",
-				rating: 5,
+				title: "Pantai Kahona",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Barus",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd10") },
@@ -261,13 +260,13 @@ var data = [
 			// Green Park
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902226"),
-				title: "Green Park",
+				title: "Pantai Pandan Indah",
 				rating: 5,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pandan",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd13") },
@@ -306,13 +305,13 @@ var data = [
 			// Podo Wae
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902227"),
-				title: "Podo Wae",
-				rating: 5,
+				title: "Pantai Pia Hotel",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pandan",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd16") },
@@ -351,13 +350,13 @@ var data = [
 			// Silver Rain
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902228"),
-				title: "Silver Rain",
-				rating: 5,
+				title: "Pantai Penatapan",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pandan",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd19") },
@@ -396,13 +395,13 @@ var data = [
 			// Cashville
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902229"),
-				title: "Cashville",
-				rating: 5,
+				title: "Pantai Pandan Ceria",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pandan",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd22") },
@@ -441,13 +440,13 @@ var data = [
 			// PS Wood
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902230"),
-				title: "PS Wood",
+				title: "Air Terjun Seribu Dolok",
 				rating: 5,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pakkat",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd25") },
@@ -486,13 +485,13 @@ var data = [
 			// One Five
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902231"),
-				title: "One Five",
-				rating: 5,
+				title: "Air Terjun Cinta",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pakkat",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd28") },
@@ -531,13 +530,13 @@ var data = [
 			// Minimal
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902232"),
-				title: "Minimal",
-				rating: 5,
+				title: "Air Terjun Sipulak",
+				rating: 4,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pakkat",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd32") },
@@ -576,13 +575,13 @@ var data = [
 			// Stays Home
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902233"),
-				title: "Stays Home",
+				title: "Air Terjun Pollung",
 				rating: 5,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Pakkat",
 				isFavorit: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+					"Pantai KD3 yang berada di kabupaten tapanuli tengan yang mampu menarik perhatian wisatawan yang berasal dari luar daerah tapanuli tengah untuk berlibur ke pantai ini, pantai KD3 juga mempunyai pasir yang putih dan banyak makanan yang beragam mulai dari olahan laut dan kue tradisional nya. ",
 				imageId: [
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd36") },
 					// done
@@ -784,7 +783,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa01"),
-				name: "bedroom",
+				name: "maps",
 				qty: 2,
 				imageUrl: "images/feature-1.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
@@ -792,7 +791,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa02"),
-				name: "living room",
+				name: "cars",
 				qty: 23,
 				imageUrl: "images/feature-2.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
@@ -800,7 +799,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa03"),
-				name: "televison",
+				name: "store",
 				qty: 12,
 				imageUrl: "images/feature-3.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
@@ -808,7 +807,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa04"),
-				name: "televison",
+				name: "sale",
 				qty: 5,
 				imageUrl: "images/feature-4.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
@@ -816,40 +815,16 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa05"),
-				name: "mbp/s",
+				name: "message",
 				qty: 5,
 				imageUrl: "images/feature-5.png",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-			},
-			{
-				// done
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa06"),
-				name: "unit ready",
-				qty: 5,
-				imageUrl: "images/feature-6.png",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-			},
-			{
-				// done
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa07"),
-				name: "refigrator",
-				qty: 5,
-				imageUrl: "images/feature-7.png",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-			},
-			{
-				// done
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08"),
-				name: "televion",
-				qty: 5,
-				imageUrl: "images/feature-8.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
 			},
 			// item 2
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa09"),
-				name: "bedroom",
+				name: "maps",
 				qty: 2,
 				imageUrl: "images/feature-1.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
@@ -857,7 +832,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa10"),
-				name: "living room",
+				name: "cars",
 				qty: 23,
 				imageUrl: "images/feature-2.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
@@ -865,7 +840,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa11"),
-				name: "televison",
+				name: "store",
 				qty: 12,
 				imageUrl: "images/feature-3.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
@@ -873,7 +848,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa12"),
-				name: "televison",
+				name: "sale",
 				qty: 5,
 				imageUrl: "images/feature-4.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
@@ -881,33 +856,9 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa13"),
-				name: "mbp/s",
+				name: "message",
 				qty: 5,
 				imageUrl: "images/feature-5.png",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-			},
-			{
-				// done
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa14"),
-				name: "unit ready",
-				qty: 5,
-				imageUrl: "images/feature-6.png",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-			},
-			{
-				// done
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa15"),
-				name: "refigrator",
-				qty: 5,
-				imageUrl: "images/feature-7.png",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-			},
-			{
-				// done
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa16"),
-				name: "televion",
-				qty: 5,
-				imageUrl: "images/feature-8.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
 			},
 		],
