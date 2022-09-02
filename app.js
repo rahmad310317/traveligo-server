@@ -13,6 +13,8 @@ const session = require("express-session");
 const flash = require("connect-flash");
 //import mongoose
 const mongoose = require("mongoose");
+const cors = require("cors");
+
 mongoose.connect(
 	"mongodb+srv://Rahmadee:Fitri310317@cluster0.i3ytv09.mongodb.net/db_traveligo?retryWrites=true&w=majority",
 
@@ -59,6 +61,7 @@ app.use(
 		path.join(__dirname, "node_modules/startbootstrap-sb-admin-2"),
 	),
 );
+app.use(cors());
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 // admin dan api controller

@@ -215,7 +215,7 @@ var data = [
 
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902225"),
-				title: "Pantai Kahona",
+				title: "Air Terjun Pollung",
 				rating: 4,
 				country: "Indonesia",
 				city: "Barus",
