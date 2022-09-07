@@ -114,12 +114,6 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa16") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb05") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb06") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb07") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb08") },
-				],
 				categoryId: "5e96cbe292b97300fc901111",
 			},
 			// Seattle Rain
@@ -158,12 +152,6 @@ var data = [
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa07") },
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
-				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
 				],
 				categoryId: "5e96cbe292b97300fc901111",
 			},
@@ -204,12 +192,6 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
 				categoryId: "5e96cbe292b97300fc901111",
 			},
 
@@ -247,12 +229,6 @@ var data = [
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa07") },
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
-				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
 				],
 				categoryId: "5e96cbe292b97300fc901111",
 			},
@@ -293,12 +269,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901112",
 			},
 
@@ -338,12 +309,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901112",
 			},
 
@@ -383,12 +349,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901112",
 			},
 
@@ -428,12 +389,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901112",
 			},
 
@@ -473,12 +429,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901113",
 			},
 
@@ -518,12 +469,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901113",
 			},
 
@@ -563,12 +509,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901113",
 			},
 
@@ -608,12 +549,7 @@ var data = [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08") },
 				],
-				activityId: [
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03") },
-					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04") },
-				],
+
 				categoryId: "5e96cbe292b97300fc901113",
 			},
 		],
@@ -785,7 +721,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa01"),
 				name: "maps",
 				qty: 2,
-				imageUrl: "Images/feature-1.jpg",
+				imageUrl: "Images/feature-1.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
 			},
 			{
@@ -793,7 +729,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa02"),
 				name: "cars",
 				qty: 23,
-				imageUrl: "Images/feature-2.jpg",
+				imageUrl: "Images/feature-2.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
 			},
 			{
@@ -801,7 +737,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa03"),
 				name: "store",
 				qty: 12,
-				imageUrl: "Images/feature-3.jpg",
+				imageUrl: "Images/feature-3.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
 			},
 			{
@@ -809,7 +745,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa04"),
 				name: "sale",
 				qty: 5,
-				imageUrl: "Images/feature-4.jpg",
+				imageUrl: "Images/feature-4.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
 			},
 			{
@@ -817,7 +753,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa05"),
 				name: "message",
 				qty: 5,
-				imageUrl: "Images/feature-5.jpg",
+				imageUrl: "Images/feature-5.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
 			},
 			// item 2
@@ -826,7 +762,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa09"),
 				name: "maps",
 				qty: 2,
-				imageUrl: "Images/feature-1.jpg",
+				imageUrl: "Images/feature-1.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
 			},
 			{
@@ -834,7 +770,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa10"),
 				name: "cars",
 				qty: 23,
-				imageUrl: "Images/feature-2.jpg",
+				imageUrl: "Images/feature-2.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
 			},
 			{
@@ -842,7 +778,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa11"),
 				name: "store",
 				qty: 12,
-				imageUrl: "Images/feature-3.jpg",
+				imageUrl: "Images/feature-3.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
 			},
 			{
@@ -850,7 +786,7 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa12"),
 				name: "sale",
 				qty: 5,
-				imageUrl: "Images/feature-4.jpg",
+				imageUrl: "Images/feature-4.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
 			},
 			{
@@ -858,77 +794,12 @@ var data = [
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa13"),
 				name: "message",
 				qty: 5,
-				imageUrl: "Images/feature-5.jpg",
+				imageUrl: "Images/feature-5.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
 			},
 		],
 	},
 	// end feature
-	// start activity
-	{
-		model: "Activity",
-		documents: [
-			// done
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb01"),
-				name: "Green Lake",
-				type: "Nature",
-				imageUrl: "Images/activity-1.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-			},
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb02"),
-				name: "Dog Clubs",
-				type: "Pool",
-				imageUrl: "Images/activity-2.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-			},
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb03"),
-				name: "Labour and Wait",
-				type: "Shopping",
-				imageUrl: "Images/activity-3.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-			},
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb04"),
-				name: "Labour and Wait",
-				type: "Shopping",
-				imageUrl: "Images/activity-4.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-			},
-			// done 2
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb05"),
-				name: "Green Lake",
-				type: "Nature",
-				imageUrl: "Images/activity-3.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-			},
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb06"),
-				name: "Dog Clubs",
-				type: "Pool",
-				imageUrl: "Images/activity-2.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-			},
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb07"),
-				name: "Labour and Wait",
-				type: "Shopping",
-				imageUrl: "Images/activity-1.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-			},
-			{
-				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90bb08"),
-				name: "Labour and Wait",
-				type: "Shopping",
-				imageUrl: "Images/activity-4.jpg",
-				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-			},
-		],
-	},
-	// end activity
 	{
 		model: "Users",
 		documents: [
