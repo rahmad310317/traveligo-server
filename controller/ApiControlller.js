@@ -1,7 +1,6 @@
 /** @format */
 
 const Category = require("../models/Category");
-const Treasure = require("../models/Activity");
 const Item = require("../models/Item");
 
 module.exports = {

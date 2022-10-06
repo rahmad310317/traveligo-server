@@ -18,7 +18,7 @@ module.exports = {
 			if (req.session.user == null || req.session.user == undefined) {
 				res.render("index", {
 					alert,
-					title: "Traveligo | Login",
+					title: "Staycation | Login",
 				});
 			} else {
 				res.redirect("/admin/dashboard");
@@ -48,12 +48,12 @@ module.exports = {
 				id: user.id,
 				username: user.username,
 			};
+
 			res.redirect("/admin/dashboard");
 		} catch (error) {
 			res.redirect("/admin/signin");
 		}
 	},
-
 	actionLogout: (req, res) => {
 		req.session.destroy();
 		res.redirect("/admin/signin");
