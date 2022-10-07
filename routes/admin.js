@@ -17,7 +17,7 @@ router.delete("/category/:id", adminController.deleteCategory);
 router.get("/item", adminController.viewItem);
 router.post("/item", uploadMultiple, adminController.addItem);
 router.get("/item/show-image/:id", adminController.showImageItem);
-router.get("/item/:id", adminController.EditImageItem);
+router.get("/item/:id", adminController.showEditItem);
 router.put("/item/:id", uploadMultiple, adminController.editItem);
 router.delete("/item/:id/delete", adminController.deleteItem);
 // endpoint detail item
