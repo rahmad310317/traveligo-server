@@ -62,11 +62,15 @@ app.use(
 	),
 );
 app.use(cors());
+
+const corsOptions = {
+	origin: "http://localhost:3000/",
+};
 app.use("/", indexRouter);
 app.use("/users", usersRouter);
 // admin dan api controller
 app.use("/admin", adminRouter);
-app.use("/api/v1/member", apiRouter);
+app.use("/api/v1/member", apiRouter), cors(corsOptions);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

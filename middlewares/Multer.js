@@ -1,16 +1,16 @@
 /** @format */
 
-const Multer = require("multer");
+const multer = require("multer");
 const path = require("path");
 
-const storage = Multer.diskStorage({
+const storage = multer.diskStorage({
 	destination: "public/images",
 	filename: function (req, file, cb) {
 		cb(null, Date.now() + path.extname(file.originalname));
 	},
 });
 
-const uploadSingle = Multer({
+const uploadSingle = multer({
 	storage: storage,
 	// limits: { fileSize: 1000000 },
 	fileFilter: function (req, file, cb) {
@@ -18,7 +18,7 @@ const uploadSingle = Multer({
 	},
 }).single("image");
 
-const uploadMultiple = Multer({
+const uploadMultiple = multer({
 	storage: storage,
 	// limits: { fileSize: 1000000 },
 	fileFilter: function (req, file, cb) {
