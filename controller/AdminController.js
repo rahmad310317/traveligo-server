@@ -18,7 +18,7 @@ module.exports = {
 			if (req.session.user == null || req.session.user == undefined) {
 				res.render("index", {
 					alert,
-					title: "Staycation | Login",
+					title: "Traveligo | Login",
 				});
 			} else {
 				res.redirect("/admin/dashboard");
@@ -136,7 +136,7 @@ module.exports = {
 	viewItem: async (req, res) => {
 		try {
 			const item = await Item.find()
-				.populate({ path: "imageId", select: "id imageurl" })
+				.populate({ path: "imageId", select: "id imageUrl" })
 				.populate({ path: "categoryId", select: " id name" });
 			const category = await Category.find();
 			const alertMessage = req.flash("alertMessage");
@@ -191,17 +191,19 @@ module.exports = {
 	showImageItem: async (req, res) => {
 		try {
 			const { id } = req.params;
-			const item = await Item.findOne({ _id: id })
-				.populate({ path: "imageId", select: "id imageUrl" })
-				.populate({ path: "categoryId", select: " id name" });
+			const item = await Item.findOne({ _id: id }).populate({
+				path: "imageId",
+				select: "id imageUrl",
+			});
 			const alertMessage = req.flash("alertMessage");
 			const alertStatus = req.flash("alertStatus");
 			const alert = { message: alertMessage, status: alertStatus };
-			res.render("admin/item/View_Item", {
-				item,
-				title: "Landing Page | Show Image Item",
+			res.render("admin/item/view_item", {
+				title: "Staycation | Show Image Item",
 				alert,
+				item,
 				action: "show image",
+				user: req.session.user,
 			});
 		} catch (error) {
 			req.flash("alertMessage", `${error.message}`);
@@ -209,28 +211,24 @@ module.exports = {
 			res.redirect("/admin/item");
 		}
 	},
-	EditImageItem: async (req, res) => {
+
+	showEditItem: async (req, res) => {
 		try {
 			const { id } = req.params;
 			const item = await Item.findOne({ _id: id })
-				.populate({
-					path: "imageId",
-					select: "id imageUrl",
-				})
-				.populate({
-					path: "categoryId",
-					select: "id name",
-				});
+				.populate({ path: "imageId", select: "id imageUrl" })
+				.populate({ path: "categoryId", select: "id name" });
 			const category = await Category.find();
 			const alertMessage = req.flash("alertMessage");
 			const alertStatus = req.flash("alertStatus");
 			const alert = { message: alertMessage, status: alertStatus };
-			res.render("admin/item/View_Item", {
-				item,
-				title: "Landing Page | Show Edit Item",
+			res.render("admin/item/view_item", {
+				title: "Staycation | Edit Item",
 				alert,
-				action: "edit",
+				item,
 				category,
+				action: "edit",
+				user: req.session.user,
 			});
 		} catch (error) {
 			req.flash("alertMessage", `${error.message}`);
@@ -238,6 +236,7 @@ module.exports = {
 			res.redirect("/admin/item");
 		}
 	},
+
 	editItem: async (req, res) => {
 		try {
 			const { id } = req.params;
