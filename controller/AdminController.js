@@ -189,6 +189,7 @@ module.exports = {
 	},
 
 	showImageItem: async (req, res) => {
+		console.log(this.showImageItem);
 		try {
 			const { id } = req.params;
 			const item = await Item.findOne({ _id: id }).populate({
