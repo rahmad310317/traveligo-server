@@ -18,7 +18,6 @@ seeder.connect(
 			"./models/Category",
 			"./models/Item",
 			"./models/Feature",
-			"./models/Member",
 			"./models/Image",
 			"./models/Users",
 		]);
@@ -83,15 +82,13 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-				title: "Tabby Town",
-				price: 12,
-				sumBooking: 2,
+				title: "Pantai KD3",
+				rating: 5,
 				country: "Indonesia",
-				city: "Lampung",
+				city: "Barus",
 				isPopular: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
-				unit: "night",
+					"Wisata pantai di Barus yang menyimpan eloknya suasana sunset dan sunrise ialah Pantai Kade Tigo. Sembari selonjoran di atas kursi sambil menunggu golden sunset, cobalah menikmati air kelapa untuk pelepas dahaga.Pantai merupakan tempat terbaik untuk refreshing, menyegarkan jiwa dari peliknya persoalan hidup. Itulah kenapa banyak orang suka nuansa pantai karena bisa me-recharge semangat yang sempat pudar.Teduhnya pantai Kade Tigo di Desa Kedai Gadang niscaya membuat pengunjung nyaman selama menikmati atraksi alam. Banyak juga yang memilih mandi-mandi dan berendam dengan asinnya air laut. Untuk menghindari sengatan mentari, gunakan lotion perlindungan kulit ya",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb4") },
@@ -123,15 +120,13 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-				title: "Seattle Rain",
-				price: 20,
-				sumBooking: 4,
+				title: "pantai Binasi",
+				rating: 5,
 				country: "Indonesia",
-				city: "Bandung",
+				city: "Sorkam ",
 				isPopular: false,
 				description:
-					"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
-				unit: "night",
+					"Pantai Binasi adalah pantai yang asri berpasir lembut benderang yang terhampar landai dan memanjang. Gelombang air yang jernih cukup tenang, sementara birunya lautan terbentang sejauh mata memandang. Semilir angin yang menerpa barisan kelapa dan cemara turut menghadirkan suasana yang menenangkan.Komposisi alamnya sudah sedemikian cantik sehingga memang layak dikagumi dan diminati. Panorama Pantai Binasi senantiasa memikat sepanjang hari, namun menjadi lebih sempurna seiring senja perlahan tiba. Karena terletak di pesisir barat Pulau Sumatera, sunset di Binasi terasa istimewa memanjakan mata.Sekedar bersantai menikmati cantiknya pantai ini dan suasananya yang khas, semestinya cukup untuk meremajakan pikiran siapa saja. Di kejauhan, bentang laut juga berhias Kepulauan Mursala yang indah. Pulau Kalimantung juga berada di sana. Bila durasi liburan kali ini panjang, Anda wajib mengunjunginya",
 				imageId: [
 					// done
 					{ _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb1") },
@@ -169,68 +164,68 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb1"),
-				imageUrl: "images/item-1.png",
+				imageUrl: "images/pantai-barus-1.jpg",
 			},
 			// done
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb2"),
-				imageUrl: "images/item-2.png",
+				imageUrl: "images/pantai-barus-2.jpg",
 			},
 			// done
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb3"),
-				imageUrl: "images/item-3.png",
+				imageUrl: "images/pantai-barus-3.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb4"),
-				imageUrl: "images/item-4.png",
+				imageUrl: "images/pantai-binasi-1.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb5"),
-				imageUrl: "images/item-1.png",
+				imageUrl: "images/pantai-binasi-2.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb6"),
-				imageUrl: "images/item-2.png",
+				imageUrl: "images/pantai-binasi-3.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb7"),
-				imageUrl: "images/item-3.png",
+				imageUrl: "images/pantai-cermin-1.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cdb9"),
-				imageUrl: "images/item-4.png",
+				imageUrl: "images/pantai-cermin-2.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd10"),
-				imageUrl: "images/item-1.png",
+				imageUrl: "images/pantai-cermin-3.jpg",
 			},
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd11"),
-				imageUrl: "images/item-1.png",
+				imageUrl: "images/pantai-kahona-1.jpg",
 			},
 			// done
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd12"),
-				imageUrl: "images/item-2.png",
+				imageUrl: "images/pantai-kahona-2.jpg",
 			},
 			// done
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd13"),
-				imageUrl: "images/item-3.png",
+				imageUrl: "images/pantai-kahona-3.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd14"),
-				imageUrl: "images/item-4.png",
+				imageUrl: "images/pantai-kapaloujung-1.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd15"),
-				imageUrl: "images/item-1.png",
+				imageUrl: "images/pantai-kapaloujung-2.jpg",
 			},
 			{
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd16"),
-				imageUrl: "images/item-2.png",
+				imageUrl: "images/pantai-kapaloujung-3.jpg",
 			},
 		],
 	},
@@ -258,7 +253,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa11"),
-				name: "Penginapan",
+				name: "UKM",
 				qty: 12,
 				imageUrl: "images/feature-3.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
@@ -266,7 +261,7 @@ var data = [
 			{
 				// done
 				_id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa12"),
-				name: "Banana bot",
+				name: "Bus",
 				qty: 5,
 				imageUrl: "images/feature-4.png",
 				itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
