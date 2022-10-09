@@ -143,7 +143,7 @@ module.exports = {
 			const alertMessage = req.flash("alertMessage");
 			const alertStatus = req.flash("alertStatus");
 			const alert = { message: alertMessage, status: alertStatus };
-			res.render("admin/item/View_Item", {
+			res.render("admin/item/view_item", {
 				item,
 				title: "Landing Page | Item",
 				alert,
