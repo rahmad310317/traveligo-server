@@ -1,4 +1,5 @@
 /** @format */
+
 const Category = require("../models/Category");
 const Item = require("../models/Item");
 const Image = require("../models/Image");
@@ -189,7 +190,6 @@ module.exports = {
 	},
 
 	showImageItem: async (req, res) => {
-		console.log(this.showImageItem);
 		try {
 			const { id } = req.params;
 			const item = await Item.findOne({ _id: id }).populate({
@@ -200,7 +200,7 @@ module.exports = {
 			const alertStatus = req.flash("alertStatus");
 			const alert = { message: alertMessage, status: alertStatus };
 			res.render("admin/item/view_item", {
-				title: "Staycation | Show Image Item",
+				title: "Traveligo | Show Image Item",
 				alert,
 				item,
 				action: "show image",
@@ -224,7 +224,7 @@ module.exports = {
 			const alertStatus = req.flash("alertStatus");
 			const alert = { message: alertMessage, status: alertStatus };
 			res.render("admin/item/view_item", {
-				title: "Staycation | Edit Item",
+				title: "Traveligo | Edit Item",
 				alert,
 				item,
 				category,
@@ -284,7 +284,6 @@ module.exports = {
 			res.redirect("/admin/item");
 		}
 	},
-
 	deleteItem: async (req, res) => {
 		try {
 			const { id } = req.params;

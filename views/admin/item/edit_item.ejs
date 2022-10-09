@@ -17,15 +17,17 @@
             <input type="text" class="form-control" name="city" value="<%= item.city %>" placeholder="Enter city"
               required>
           </div>
-          <div class="form-group">
-            <label for="name">Category</label>
-            <select class="form-control" name="categoryId">
-              <option value="<%= item.categoryId._id %>">--- <%= item.categoryId.name %> ---</option>
-              <% for(let i = 0; i< category.length; i++){ %>
-              <option value="<%= category[i].id %>"><%= category[i].name %></option>
+        <div class="form-group">
+          <label for="name">Category</label>
+          <select class="form-control" name="categoryId">
+            <option value="">--- Category ---</option>
+            <% for(let i=0; i < category.length; i++) { %>
+              <option value="<%= category[i].id %>">
+                <%= category[i].name %>
+              </option>
               <%}%>
-            </select>
-          </div>
+          </select>
+        </div>
           <div class="form-group">
             <label for="name">Image</label>
             <input type="file" class="form-control" name="image" multiple>
