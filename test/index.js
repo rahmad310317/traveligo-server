@@ -26,7 +26,7 @@ describe("API ENDPOINT TESTING", () => {
 	it("GET Details Page", (done) => {
 		chai
 			.request(app)
-			.get("/api/v1/member/details-page/6303c47d13140a895110c98d")
+			.get("/api/v1/member/details-page/6342dc6c325cb65ca453968e")
 			.end((err, res) => {
 				expect(err).to.be.null;
 				expect(res).to.have.status(200);
